@@ -9,6 +9,5 @@ import java.lang.annotation.Target;
 @Retention(RUNTIME)
 @Target(FIELD)
 public @interface Value {
-	String value();
-
+String value();
 }
